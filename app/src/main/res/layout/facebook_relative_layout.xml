@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3b579d">
+
+    <ImageView
+        android:id="@+id/imgFacebookLogo"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:src="@drawable/facebook_logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"/>
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username or Email"
+        android:layout_below="@id/imgFacebookLogo"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:textColorHint="#FDFEFE"
+        android:backgroundTint="@color/white"
+        android:inputType="text"
+        android:paddingBottom="15dp"
+        />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_below="@id/etUsername"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:textColorHint="#FDFEFE"
+        android:backgroundTint="@color/white"
+        android:inputType="textPassword"
+        android:paddingBottom="15dp"
+        />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="LOG IN"
+        android:backgroundTint="#606cc4"
+        android:layout_below="@id/etPassword"
+        android:layout_marginTop="30dp"
+        android:layout_margin="45dp"/>
+
+    <TextView
+        android:id="@+id/txtSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up For Facebook"
+        android:textColor="#D0D3D4"
+        android:textSize="20sp"
+        android:layout_above="@id/txtForgotPwd"
+        android:gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/txtForgotPwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password"
+        android:textColor="#D0D3D4"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        />
+
+
+
+</RelativeLayout>

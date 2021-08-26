@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Activity Lifecycle</string>
+    <string name="new_app_name">Facebook</string>
+    <string name="password">Password</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="log_in">LOG IN</string>
+    <string name="preferences_file_name">Avengers Preferences</string>
+</resources>
